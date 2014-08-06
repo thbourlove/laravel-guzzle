@@ -1,0 +1,26 @@
+{
+    "name": "eleme/laravel-guzzle",
+    "description": "laravel guzzle service provider",
+    "keywords": ["laravel", "guzzle", "http"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hongbo Tang",
+            "email": "thbourlove@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.0",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eleme\\Laravel\\": "src/",
+            "Eleme\\Laravel\\Tests\\": "tests/"
+        }
+    }
+}
