@@ -9,7 +9,7 @@ class Guzzle extends ServiceProvider
     public function register()
     {
         $this->app->bind('guzzle', function () {
-            return new Client;
+            return new Client($this->app['config']['guzzle']);
         });
     }
 }
